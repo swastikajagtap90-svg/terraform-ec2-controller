@@ -1,0 +1,16 @@
+# Terraform working data and local state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+tfplan
+tfplan-*
+*.plan
+
+# Secrets and generated private keys
+terraform.tfvars
+*.pem
+*.key
+*.csv
+.aws/
